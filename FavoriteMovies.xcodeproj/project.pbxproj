@@ -34,6 +34,8 @@
 		45DEC22B1832937B0013B3B3 /* DCRoundSwitchOutlineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DEC2261832937B0013B3B3 /* DCRoundSwitchOutlineLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		45DEC22C1832937B0013B3B3 /* DCRoundSwitchToggleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DEC2281832937B0013B3B3 /* DCRoundSwitchToggleLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		45DEC22F183296B30013B3B3 /* MovieStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DEC22E183296B30013B3B3 /* MovieStore.m */; };
+		F31D83381832F52E00ABDD1B /* bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = F31D83361832F52E00ABDD1B /* bomb.png */; };
+		F31D83391832F52E00ABDD1B /* cctv.png in Resources */ = {isa = PBXBuildFile; fileRef = F31D83371832F52E00ABDD1B /* cctv.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 		45DEC2281832937B0013B3B3 /* DCRoundSwitchToggleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchToggleLayer.m; sourceTree = "<group>"; };
 		45DEC22D183296B30013B3B3 /* MovieStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieStore.h; sourceTree = "<group>"; };
 		45DEC22E183296B30013B3B3 /* MovieStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieStore.m; sourceTree = "<group>"; };
+		F31D83361832F52E00ABDD1B /* bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomb.png; sourceTree = "<group>"; };
+		F31D83371832F52E00ABDD1B /* cctv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cctv.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,8 @@
 				45B405DC1831AFB50032230B /* FavoriteViewController.m */,
 				45B406181831EB070032230B /* Movie.h */,
 				45B406191831EB070032230B /* Movie.m */,
+				F31D83361832F52E00ABDD1B /* bomb.png */,
+				F31D83371832F52E00ABDD1B /* cctv.png */,
 				45DEC22D183296B30013B3B3 /* MovieStore.h */,
 				45DEC22E183296B30013B3B3 /* MovieStore.m */,
 			);
@@ -300,8 +306,10 @@
 				45B4061C1831EFC10032230B /* images in Resources */,
 				45B405B41831A0FA0032230B /* Images.xcassets in Resources */,
 				45B405E11831E7E60032230B /* Movies.plist in Resources */,
+				F31D83391832F52E00ABDD1B /* cctv.png in Resources */,
 				45B405A61831A0FA0032230B /* InfoPlist.strings in Resources */,
 				45B405AF1831A0FA0032230B /* Main.storyboard in Resources */,
+				F31D83381832F52E00ABDD1B /* bomb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

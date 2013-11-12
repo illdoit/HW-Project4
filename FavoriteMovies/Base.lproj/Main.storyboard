@@ -213,7 +213,7 @@
                             <constraint firstAttribute="trailing" secondItem="u7S-si-pA6" secondAttribute="trailing" type="default" id="nO3-4b-F7j"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Favorite" id="ns7-jq-XOL"/>
+                    <tabBarItem key="tabBarItem" title="Favorite" image="cctv.png" id="ns7-jq-XOL"/>
                     <connections>
                         <outlet property="movieTable" destination="u7S-si-pA6" id="pjo-pS-lbC"/>
                     </connections>
@@ -395,7 +395,7 @@
         <scene sceneID="jG4-m1-Wsi">
             <objects>
                 <navigationController id="7eD-g4-03S" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Movies" id="eGv-xQ-iq9"/>
+                    <tabBarItem key="tabBarItem" title="Movies" image="bomb.png" id="eGv-xQ-iq9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iq8-qd-8Il">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -411,6 +411,10 @@
             <point key="canvasLocation" x="719" y="-418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bomb.png" width="30" height="30"/>
+        <image name="cctv.png" width="30" height="30"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
