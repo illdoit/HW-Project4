@@ -40,7 +40,6 @@
 
     movies = [[NSMutableArray alloc] init];
 
-    //if not empty assing to movies
     movies = [[MovieStore sharedInstance] movies];
 }
 
@@ -79,7 +78,6 @@
 {
 
 }
-//pass movie object and index position
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"showMovieDetail"]) {
         NSIndexPath *indexPath = [_movieTable indexPathForSelectedRow];

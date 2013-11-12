@@ -38,7 +38,6 @@
     
     _imdbRating.text = _movie.rating;
 
-    //previously set favorite will displayed if set previously
     _favoriteSwitch.on = _movie.favorite;
 }
 

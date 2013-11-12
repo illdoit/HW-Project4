@@ -51,7 +51,6 @@
 	
     [_movieTable setDelegate:self];
     [_movieTable setDataSource:self];
-    //[_movieTable registerClass:[MovieCell class] forCellReuseIdentifier:CELL_REUSE_ID];
     
     
     movies = [[NSMutableArray alloc] init];

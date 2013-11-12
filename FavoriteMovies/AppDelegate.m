@@ -65,12 +65,10 @@
     NSString *path = [[NSBundle mainBundle] pathForResource:
                       @"Movies" ofType:@"plist"];
     
-    // Build the array from the plist
     NSMutableArray *temp = [[NSMutableArray alloc] initWithContentsOfFile:path];
     
     NSMutableArray *movies = [[NSMutableArray alloc] init];
     
-    //check if singleton is empty
     if ([[MovieStore sharedInstance] movies] == nil) {
         for (NSDictionary *movObj in temp) {
             Movie *m = [[Movie alloc] init];
